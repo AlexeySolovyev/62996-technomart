@@ -11,9 +11,11 @@
         <a class="logo" href="index.html">
           <img src="img/main-logo.jpg" width="" height="" alt="Компания «Техномарт»">
         </a>
-        <form  class="search-header" action="https://echo.htmlacademy.ru" method="get">
-          <input class="search" type="search" name="search" placeholder="Поиск:">
-        </form>
+        <div class="search-header">
+          <form action="https://echo.htmlacademy.ru" method="get">
+            <input class="search" type="search" name="search" placeholder="Поиск:">
+          </form>
+        </div>
         <div class="top-header-right">
           <a class="icon-bookmark bookmark" href="#">Закладки: 0</a>
           <a class="icon-basket basket" href="#">Корзина: 0</a>
@@ -33,8 +35,8 @@
           <a class="account-btn registration-btn" href="#">Регистрация</a>
        </div>
       </div>
-      <nav>
-        <ul class="nav-header clearfix">
+      <nav class="nav-header clearfix">
+        <ul>
           <li><a href="index.html">Главная</a></li>
           <li><a href="#">Компания</a></li>
           <li><a href="#">Каталог</a></li>
@@ -48,7 +50,8 @@
     </header>
 
     <main class="container">
-      <div class="promo-block clearfix">
+
+      <div class="promo-top clearfix">
         <div class="clearfix">
           <div class="promo materials">
             <div class="promo-title">Материалы</div>
@@ -63,15 +66,16 @@
             <a class="promo-btn" href="#">Для стройки</a>
           </div>
          </div>
+        </div>
 
-        <div class="promo-slider clearfix">
-          <div class="clearfix"></div>
-          <div class="promo-slide slide-1">
-            <div class="promo-slider-title">
-              <h2>Перфораторы</h2>
-              <p>Настроящие мужские игрушки</p>
+        <div class="promo-bottom clearfix">
+            <div class="promo-slider">
+             <div class="promo-slide slide-1">
+              <div class="promo-slider-title">
+                <h2>Перфораторы</h2>
+                <p>Настроящие мужские игрушки</p>
+              </div>
             </div>
-          </div>
           <div class="promo-slider">
             <div class="promo-slide slide-1">
               <div class="promo-slider-title">
@@ -79,23 +83,23 @@
                 <p>Соседям на радость!</p>
               </div>
             </div>
-          <a class="arrow-left promo-slider-btn" href="#"></a>
-          <a class="arrow-right promo-slider-btn" href="#"></a>
-          <a class="btn open-catalog-btn" href="#">Открыть каталог</a>
+            <a class="arrow-left promo-slider-btn" href="#"></a>
+            <a class="arrow-right promo-slider-btn" href="#"></a>
+            <a class="btn open-catalog-btn" href="#">Открыть каталог</a>
+           </div>
+          </div>
+          <div class="promo-block-right">
+          <div class="promo discount">
+            <div class="promo-title">Скидка 50%</div>
+            <a class="promo-btn" href="#">На 350 товаров</a>
+          </div>
+          <div class="promo delivery">
+            <div class="promo-title">Доставка</div>
+            <a class="promo-btn" href="#">Бесплатно</a>
+          </div>
+         </div>
         </div>
-       </div>
-       <div class="promo-block">
-         <div class="clearfix">
-        <div class="promo discount">
-          <div class="promo-title">Скидка 50%</div>
-          <a class="promo-btn" href="#">На 350 товаров</a>
-        </div>
-        <div class="promo delivery">
-          <div class="promo-title">Доставка</div>
-          <a class="promo-btn" href="#">Бесплатно</a>
-        </div>
-        </div>
-      </div>
+
       <div class="global-title clearfix">
         <h2>Популярные товары</h2>
         <a class="btn popular-items-btn" href="#">Все популярные товары</a>
@@ -132,14 +136,14 @@
       </div>
       <div class="catalog-vendors clearfix">
         <div class="catalog-vendors">
-          <a class="logo-bosch" href="#"><img src="img/logo-bosch.png" width="" height="" alt="Bosch"></a>
-          <a class="logo-makita" href="#"><img src="img/logo-makita.png" width="" height="" alt="Makita"></a>
-          <a class="logo-dewalt" href="#"><img src="img/logo-dewalt.png" width="" height="" alt="Dewalt"></a>
-          <a class="logo-interskol" href="#"><img src="img/logo-interskol.png" width="" height="" alt="Интерскол"></a>
-          <a class="logo-hitachi" href="#"><img src="img/logo-hitachi.png" width="" height="" alt="Hitachi"></a>
-          <a class="logo-lg" href="#"><img src="img/logo-lg.png" width="" height="" alt="LG"></a>
-          <a class="logo-aeg" href="#"><img src="img/logo-aeg.png" width="" height="" alt="AEG"></a>
-          <a class="logo-metabo" href="#"><img src="img/logo-metabo.png" width="" height="" alt="Metabo"></a>
+          <a href="#"><img src="img/logo-bosch.png" width="" height="" alt="Bosch"></a>
+          <a href="#"><img src="img/logo-makita.png" width="" height="" alt="Makita"></a>
+          <a href="#"><img src="img/logo-dewalt.png" width="" height="" alt="Dewalt"></a>
+          <a href="#"><img src="img/logo-interskol.png" width="" height="" alt="Интерскол"></a>
+          <a href="#"><img src="img/logo-hitachi.png" width="" height="" alt="Hitachi"></a>
+          <a href="#"><img src="img/logo-lg.png" width="" height="" alt="LG"></a>
+          <a href="#"><img src="img/logo-aeg.png" width="" height="" alt="AEG"></a>
+          <a href="#"><img src="img/logo-metabo.png" width="" height="" alt="Metabo"></a>
         </div>
       </div>
       <div class="services">
