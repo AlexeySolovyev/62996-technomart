@@ -11,26 +11,29 @@
         <a class="logo" href="index.html">
           <img src="img/main-logo.jpg" width="" height="" alt="Компания «Техномарт»">
         </a>
-        <input class="search" type="search" name="search" placeholder="Поиск:">
+        <form  class="search-header" action="https://echo.htmlacademy.ru" method="get">
+          <input class="search" type="search" name="search" placeholder="Поиск:">
+        </form>
         <div class="top-header-right">
-          <a class="icon-bookmark bookmark" href="#">Закладки: <span class="bookmark-quantity">0</span></a>
-          <a class="icon-basket basket" href="#">Корзина: <span class="basket-quantity">0</span></a>
+          <a class="icon-bookmark bookmark" href="#">Закладки: 0</a>
+          <a class="icon-basket basket" href="#">Корзина: 0</a>
           <a class="order" href="#">Оформить заказ</a>
         </div>
       </div>
     </div>
     <div class="middle-header">
       <div class="container clearfix">
-        <p class="description-header">Интернет-магазин строительных материалов и инструментов для ремонта</p>
+        <h1 class="description-header">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
         <div class="contacts">
-          <p class="icon-phone phone">+7 (812) 555-05-55</p>
-          <p class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+          <div class="icon-phone phone">+7 (812) 555-05-55</div>
+          <div class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</div>
         </div>
         <div class="account">
           <a class="icon-login account-btn login-btn" href="#">Войти</a>
           <a class="account-btn registration-btn" href="#">Регистрация</a>
        </div>
       </div>
+      <nav>
         <ul class="nav-header clearfix">
           <li><a href="index.html">Главная</a></li>
           <li><a href="#">Компания</a></li>
@@ -40,6 +43,7 @@
           <li><a href="#">Доставка</a></li>
           <li><a href="#">Контакты</a></li>
         </ul>
+      </nav>
     </div>
     </header>
 
@@ -47,7 +51,6 @@
       <div class="promo-block clearfix">
         <div class="clearfix">
           <div class="promo materials">
-            <div class="banner new">New</div>
             <div class="promo-title">Материалы</div>
             <a class="promo-btn" href="#">На любой вкус</a>
           </div>
@@ -60,18 +63,29 @@
             <a class="promo-btn" href="#">Для стройки</a>
           </div>
          </div>
-        <div class="promo-slider">
+
+        <div class="promo-slider clearfix">
+          <div class="clearfix"></div>
           <div class="promo-slide slide-1">
             <div class="promo-slider-title">
               <h2>Перфораторы</h2>
               <p>Настроящие мужские игрушки</p>
             </div>
-            <img src="img/slide-1.jpg" width="" height="" alt="Перфораторы BOSCH">
           </div>
+          <div class="promo-slider">
+            <div class="promo-slide slide-1">
+              <div class="promo-slider-title">
+                <h2>Дрели</h2>
+                <p>Соседям на радость!</p>
+              </div>
+            </div>
           <a class="arrow-left promo-slider-btn" href="#"></a>
           <a class="arrow-right promo-slider-btn" href="#"></a>
           <a class="btn open-catalog-btn" href="#">Открыть каталог</a>
         </div>
+       </div>
+       <div class="promo-block">
+         <div class="clearfix">
         <div class="promo discount">
           <div class="promo-title">Скидка 50%</div>
           <a class="promo-btn" href="#">На 350 товаров</a>
@@ -80,66 +94,52 @@
           <div class="promo-title">Доставка</div>
           <a class="promo-btn" href="#">Бесплатно</a>
         </div>
+        </div>
       </div>
       <div class="global-title clearfix">
-        <h3>Популярные товары</h3>
+        <h2>Популярные товары</h2>
         <a class="btn popular-items-btn" href="#">Все популярные товары</a>
       </div>
       <div class="catalog-items clearfix">
         <div class="catalog-item">
           <div class="image"><img src="img/bfg9000.png" alt="Перфоратор BOSH BFG 9000"></div>
-          <div class="title">Перфоратор BOSCH BFG 9000</div>
+          <h3 class="title">Перфоратор BOSCH BFG 9000</h3>
           <div class="old-price">32500 Р.</div>
           <div class="new-price">25500 Р.</div>
         </div>
         <div class="catalog-item">
           <div class="image"><img src="img/bfg3000.png" alt="Перфоратор BOSH BFG 3000"></div>
-          <div class="title">Перфоратор BOSCH BFG 3000</div>
+          <h3 class="title">Перфоратор BOSCH BFG 3000</h3>
           <div class="old-price">22500 Р.</div>
           <div class="new-price">15500 Р.</div>
         </div>
         <div class="catalog-item">
           <div class="image"><img src="img/bfg6000.png" alt="Перфоратор BOSH BFG 6000"></div>
-          <div class="title">Перфоратор BOSCH BFG 6000</div>
+          <h3 class="title">Перфоратор BOSCH BFG 6000</h3>
           <div class="old-price">30500 Р.</div>
           <div class="new-price">25500 Р.</div>
         </div>
         <div class="catalog-item">
-          <div class="banner new">New</div>
           <div class="image"><img src="img/bfg2000.png" alt="Перфоратор BOSH BFG 6000"></div>
-          <div class="title">Перфоратор BOSCH BFG 2000</div>
+          <h3 class="title">Перфоратор BOSCH BFG 2000</h3>
           <div class="old-price"></div>
           <div class="price">12 500 Р.</div>
         </div>
       </div>
       <div class="global-title clearfix">
-        <h3>Популярные производители</h3>
+        <h2>Популярные производители</h2>
         <a class="btn all-firms-btn" href="#">Все производители</a>
       </div>
       <div class="catalog-vendors clearfix">
-        <div class="catalog-vendor">
-          <a href="#"><img class="logo-bosch" src="img/logo-bosch.png" alt="Bosch"></a>
-        </div>
-        <div class="catalog-vendor">
-          <a href="#"><img class="logo-makita" src="img/logo-makita.png" alt="Makita"></a>
-        </div>
-        <div class="catalog-vendor">
-          <a href="#"><img class="logo-dewalt" src="img/logo-dewalt.png" alt="Dewalt"></a>
-        </div>
-        <div class="catalog-vendor">
-          <a href="#"><img class="logo-interskol" src="img/logo-interskol.png" alt="Интерскол"></a>
-        </div>
-        <div class="catalog-vendor">
-          <a href="#"><img class="logo-hitachi" src="img/logo-hitachi.png" alt="Hitachi"></a>
-        </div>
-        <div class="catalog-vendor">
-          <a href="#"><img class="logo-lg" src="img/logo-lg.png" alt="LG"></a>
-        </div>
-        <div class="catalog-vendor">
-          <a href="#"><img class="logo-aeg" src="img/logo-aeg.png" alt="AEG"></a>
-        </div>
-        <div class="catalog-vendor">
-          <a href="#"><img class="logo-metabo" src="img/logo-metabo.png" alt="Metabo"></a>
+        <div class="catalog-vendors">
+          <a class="logo-bosch" href="#"><img src="img/logo-bosch.png" width="" height="" alt="Bosch"></a>
+          <a class="logo-makita" href="#"><img src="img/logo-makita.png" width="" height="" alt="Makita"></a>
+          <a class="logo-dewalt" href="#"><img src="img/logo-dewalt.png" width="" height="" alt="Dewalt"></a>
+          <a class="logo-interskol" href="#"><img src="img/logo-interskol.png" width="" height="" alt="Интерскол"></a>
+          <a class="logo-hitachi" href="#"><img src="img/logo-hitachi.png" width="" height="" alt="Hitachi"></a>
+          <a class="logo-lg" href="#"><img src="img/logo-lg.png" width="" height="" alt="LG"></a>
+          <a class="logo-aeg" href="#"><img src="img/logo-aeg.png" width="" height="" alt="AEG"></a>
+          <a class="logo-metabo" href="#"><img src="img/logo-metabo.png" width="" height="" alt="Metabo"></a>
         </div>
       </div>
       <div class="services">
@@ -154,6 +154,7 @@
               <li><a href="#">Кредит</a></li>
             </ul>
             <div class="tab-slides">
+
               <div class="tab-slide tab-first">
                 <p class="tab-slide-title">Доставка</p>
                 <div class="tab-slide-description">
@@ -161,20 +162,38 @@
                     к вашему подъезду совершенно бесплатно!<br> Ведь мы неплохо заработаем,<br>
                     поднимая его на ваш этаж</p>
                 </div>
-                <div class="tab-slide-image">
-                  <img src="img/serice-delivery.png" alt="Техномарт-Доставка"/>
+              </div>
+
+              <div class="tab-slide tab-second">
+                <p class="tab-slide-title">Гарантия</p>
+                <div class="tab-slide-description">
+                  <p class="tab-slide-text">Если купленный у нас товар поломается или заискрит,<br>
+                    а также в случае пожара, спровоцированного его возгоранием,<br>
+                    вы всегда можете быть уверены в нашей гарантии. Мы обменяем<br>
+                    сгоревший товар на новый.<br>
+                    Дом уж восстановите как-нибудь сами.</p>
                 </div>
               </div>
+
+              <div class="tab-slide tab-third">
+                <p class="tab-slide-title">Кредит</p>
+                <div class="tab-slide-description">
+                  <p class="tab-slide-text">Залезть в долговую яму стало проще!<br>
+                    Кредитные консультанты придут вам на помощь.</p>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
       </div>
       <div class="container clearfix">
         <div class="about-company">
-          <p class="about-company-title company-title"><span>Компания «Техномарт»</span></p>
+          <h2 class="about-company-title company-title">Компания «Техномарт»</h2>
           <p class="about-company-desc">Настоящий мужской шопинг начинается здесь!
             Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
-          <p class="about-company-desc">Мы можем доставить ваш товар в самые отдаленные точки России!<br>Техномарт работает со многими транспортными компаниями:</p>
+          <p class="about-company-text">Мы можем доставить ваш товар в самые отдаленные точки России!<br>
+            Техномарт работает со многими транспортными компаниями:</p>
           <ul class="delivery-company">
             <li>Деловые линии</li>
             <li>Автотрейдинг</li>
@@ -183,9 +202,9 @@
           <a class="btn more-about-btn" href="#">Подробнее о компании</a>
         </div>
         <div class="contacts">
-          <p class="contacts-title company-title"><span>Контакты</span></p>
+          <h2 class="contacts-title company-title">Контакты</h2>
           <p class="contacts-text">Вы можете забрать товар сами,<br>заехав в наш офис</p>
-          <div class="map"><img src="img/map.jpg" alt="Схема проезда «Техномарт»"></div>
+          <div class="map"><img src="img/map.jpg" width="" height="" alt="Схема проезда «Техномарт»"></div>
           <a class="btn write-us-btn" href="#">Заблудились? Напишите нам!</a>
         </div>
       </div>
@@ -196,8 +215,8 @@
         <div class="container clearfix">
           <div class="top-footer-left">
             <a class="footer-logo" href="index.html">Техномарт</a>
-            <p>г. Санкт-Петербург, ул. Б. Конюшенная, 19/8</p>
-            <p>+7 (812) 555-05-55</p>
+            <div>г. Санкт-Петербург, ул. Б. Конюшенная, 19/8</div>
+            <div>+7 (812) 555-05-55</div>
           </div>
           <div class="nav-footer clearfix">
             <ul class="nav-footer-top">
