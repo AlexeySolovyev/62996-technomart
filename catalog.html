@@ -52,17 +52,15 @@
     </header>
 
     <main class="container clearfix">
-      <div class="breadcrumbs">
-        <a class="icon-home" href="index.html"></a>
-        <a class="icon-right" href="#">Каталог</a>
-        <a class="icon-right" href="#">Инструмент</a>
+      <ul class="breadcrumbs">
+        <li><a class="icon-home" href="index.html"></a></li>
+        <li><a class="icon-right" href="#">Каталог</a></li>
+        <li><a class="icon-right" href="#">Инструмент</a></li>
         <span class="icon-right">Перфораторы</span>
-      </div>
+      </ul>
       <h1 class="catalog-title">Перфораторы</h1>
       <div class="catalog-selector">
-        <div class="catatalog-selector-top">
-          <div class="catalog-selector-title">Фильтр:</div>
-        </div>
+        <div class="catatalog-selector-top">Фильтр:</div>
         <section class="catalog-price-selector">
           <div class="catalog-main-header">Цена:</div>
           <div class="catalog-range-filter">
@@ -77,34 +75,49 @@
               <form action="https://echo.htmlacademy.ru" method="get">
                 <input class="min-price" type="text" value="0"> -
                 <input class="max-price" type="text" value="30 000">
-              </form>
             </div>
           </div>
         </section>
-        <div class="catalog-control">
-          <div class="catalog-main-header">Производители:</div>
-          <div class="vendor-selector">
-            <ul class="vendor-selector selector">
-              <li><a class="icon-check-on" href="#">Bosch</a></li>
-              <li><a class="icon-check-off" href="#">Интерскол</a></li>
-              <li><a class="icon-check-on" href="#">Makita</a></li>
-              <li><a class="icon-check-off" href="#">Dewalt</a></li>
-              <li><a class="icon-check-off" href="#">Hitachi</a></li>
+        <fieldset>
+          <legend>Производители:</legend>
+            <ul>
+              <li>
+                <input id="bosch" type="checkbox" value="" checked>
+                <label for="bosch">Bosch</label>
+              </li>
+              <li>
+                <input id="intersol" type="checkbox" value="">
+                <label for="interscol">Интерскол</label>
+              </li>
+              <li>
+                <input id="makita" type="checkbox" value="" checked>
+                <label for="makita">Makita</label>
+              </li>
+              <li>
+                <input id="dewalt" type="checkbox" value="">
+                <label for=dewalt"">Dewalt</label>
+              </li>
+              <li>
+                <input id="hitachi" type="checkbox" value="">
+                <label for="hitachi">Hitachi</label>
+              </li>
             </ul>
-          </div>
-        </div>
-        <div class="catatalog-control">
-          <div class="catalog-main-header">
-            <div class="catalog-main-header">Питание:</div>
-          </div>
-          <div class="power-select">
-            <ul class="power-selector selector">
-              <li><a class="icon-circle-on" href="#">Аккумуляторные</a></li>
-              <li><a class="icon-circle-off" href="#">Сетевые</a></li>
-            </ul>
-          </div>
-        </div>
-        <button class="catalog-show" type="button" name="button">Показать</button>
+        </fieldset>
+        <fieldset>
+          <legend>Питание:</legend>
+              <ul>
+                <li>
+                  <input id="accumulator" type="radio" name="select" value="accum" checked>
+                  <label for="accumulator">Аккумуляторные</label>
+                </li>
+                <li>
+                  <input id="wired" type="radio" name="select" value="wired1">
+                  <label for="wired">Сетевые</label>
+                </li>
+              </ul>
+        </fieldset>
+          <button class="catalog-show" type="button" name="button">Показать</button>
+        </form>
       </div>
       <section class="catalog-items">
         <div class="catalog-items-sort-pannel">
@@ -220,10 +233,11 @@
 
         </div>
         <div class="pager">
-          <a class="page page-active" href="#">1</a>
-          <a class="page" href="#">2</a>
-          <a class="page" href="#">3</a>
-          <a class="btn-next" href="#">Следующая</a>
+          <ul>
+            <li><a class="page-active" href="#">1</a></li>
+            <li><a class="page" href="#"></a>2</li>
+            <li><a class="page" href="#"></a>3</li>
+          </ul>
         </div>
       </section>
       <div class="items-description">
