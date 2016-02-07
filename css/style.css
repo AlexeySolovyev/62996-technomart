@@ -26,7 +26,8 @@ h2 {
   text-transform: uppercase;
 }
 
-.clearfix::after {
+.clearfix::after,
+.clearfix::before {
   content: "";
   display: table;
   clear: both;
@@ -95,15 +96,19 @@ h2 {
 }
 
 .description-header {
+  margin: 0;
   float: left;
   width: 200px;
-  padding-top: 45px;
+  padding-left: 40px;
+  padding-top: 35px;
+  margin-right: 70px;
+
 }
 
 .contacts-main {
   float: left;
   width: 270px;
-  padding-top: 45px;
+  padding-top: 35px;
   margin-right: 70px;
   margin-bottom: 45px;
 }
@@ -128,6 +133,19 @@ h2 {
   padding-left: 10px;
 }
 
+.account-menu,
+.login-menu {
+  float: right;
+  width: 270px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.user-login {
+  float: left;
+  width: 300px;
+}
+
 .nav-header {
   width: 940px;
   height: 60px;
@@ -138,8 +156,8 @@ h2 {
 
 .nav-header ul {
   padding: 0;
-  padding-top: 20px;
   text-align: center;
+
 }
 
 .nav-header li {
@@ -445,7 +463,6 @@ h2 {
 .bottom-footer {
   height: 105px;
   background-color: #293449;
-  margin-top: -20px;
 }
 
 .copyright {
@@ -461,22 +478,28 @@ p.copyright {
   color: #ffffff;
 }
 
-.socials {
+.social-item {
   float: left;
-  width: 150px;
+  width: 50px;
 }
 
-.contact .email {
+.footer-contact {
+  float: right;
+  width: 300px;
+}
+
+.email {
   float: left;
   width: 140px;
 }
 
-.contact .studio {
+.studio {
   float: right;
   width: 140px;
 }
 
-.contact p {
+.email p,
+.studio p {
   font-family: "Cuprum", "Arial", sans-serif;
   font-size: 16px;
   line-height: 19px;
@@ -484,7 +507,8 @@ p.copyright {
   margin: 0;
 }
 
-.contact a {
+.email a,
+.studio a {
   font-family: "Cuprum", "Arial", sans-serif;
   font-size: 16px;
   line-height: 19px;
@@ -494,8 +518,8 @@ p.copyright {
 .contacts-inner {
   float: left;
   width: 270px;
-  padding-top: 45px;
-  margin-right: 50px;
+  padding-top: 35px;
+  margin-right: 70px;
   margin-bottom: 45px;
 }
 
@@ -518,30 +542,7 @@ p.copyright {
   color: #32425c;
   padding-left: 10px;
 }
-/*
-.user-login {
-  float: left;
-  width: 300px;
-}
 
-.user-orders {
-  float: left;
-  width: 100px;
-}
-
-.user-profile {
-  float: left;
-  width: 130px;
-}
-
-a.user-orders,
-a.user-profile {
-  font-family: "Cuprum", "Arial" sans-serif;
-  font-size: 16px;
-  line-height: 18px;
-  color: #32425c;
-}
-*/
 .breadcrumbs {
   height: 60px;
   margin: 0;
@@ -590,9 +591,14 @@ a.user-profile {
   margin-right: 20px;
 }
 
+.catalog-items-sort-pannel {
+  float: right;
+  width: 700px;
+}
+
 .catalog-items {
-  font-size: 0;
-  margin-bottom: 20px;
+  float: right;
+  width: 700px;
 }
 
 .catalog-item {
@@ -636,6 +642,7 @@ a.user-profile {
 }
 
 .items-description {
+  float: left;
   height: 260px;
   background-color: #f2f6f8;
 }
