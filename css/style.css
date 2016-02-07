@@ -6,6 +6,7 @@ body {
 }
 
 h1 {
+  display: inline-block;
   font-family: "Cuprum", "Arial", sans-serif;
   font-style: italic;
   font-size: 16px;
@@ -40,7 +41,6 @@ h2 {
 .top-header {
   height: 41px;
   background-color: #293449;
-  margin-bottom: 40px;
 }
 
 .logo {
@@ -87,19 +87,23 @@ h2 {
 .top-header-right .order {
   float: left;
   width: 150px;
+}
 
+.middle-header {
+  height: 280px;
+  background-color: #f2f6f8;
 }
 
 .description-header {
   float: left;
   width: 200px;
-  padding-left: 50px;
-  margin-right: 70px;
+  padding-top: 45px;
 }
 
 .contacts-main {
   float: left;
   width: 270px;
+  padding-top: 45px;
   margin-right: 70px;
   margin-bottom: 45px;
 }
@@ -125,14 +129,17 @@ h2 {
 }
 
 .nav-header {
-  padding: 0;
+  width: 940px;
   height: 60px;
+  margin: 0 auto;
+  background-color: #32425c;
   margin-bottom: 60px;
 }
 
 .nav-header ul {
   padding: 0;
   padding-top: 20px;
+  text-align: center;
 }
 
 .nav-header li {
@@ -143,6 +150,7 @@ h2 {
   font-family: "Cuprum", "Arial", sans-serif;
   font-size: 17px;
   line-height: 17px;
+  color: #ffffff;
   margin-right: 60px;
   text-decoration: none;
 }
@@ -486,6 +494,7 @@ p.copyright {
 .contacts-inner {
   float: left;
   width: 270px;
+  padding-top: 45px;
   margin-right: 50px;
   margin-bottom: 45px;
 }
@@ -509,7 +518,7 @@ p.copyright {
   color: #32425c;
   padding-left: 10px;
 }
-
+/*
 .user-login {
   float: left;
   width: 300px;
@@ -532,7 +541,7 @@ a.user-profile {
   line-height: 18px;
   color: #32425c;
 }
-
+*/
 .breadcrumbs {
   height: 60px;
   margin: 0;
@@ -561,6 +570,7 @@ a.user-profile {
 }
 
 .catalog-title {
+  display: block;
   margin: 0;
   height: 90px;
   background-color: #f2f6f8;
@@ -571,6 +581,7 @@ a.user-profile {
   font-family: "Cuprum", "Arial", sans-serif;
   font-size: 30px;
   line-height: 30px;
+  padding-left: 20px;
 }
 
 .catalog-selector {
@@ -627,4 +638,19 @@ a.user-profile {
 .items-description {
   height: 260px;
   background-color: #f2f6f8;
+}
+
+.items-description-title {
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 30px;
+  line-height: 24px;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.items-description-text {
+  width: 940px;
+  font-size: 13px;
+  line-height: 24px;
 }
