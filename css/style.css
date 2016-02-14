@@ -51,7 +51,7 @@ html, body {
   display: none;
   width: 60px;
   height: 60px;
-  background-image: url("../picts/all-icons.png");
+  background-image: url("../img/all-icons.png");
   background-repeat: no-repeat;
   background-position: 0 -800px;
 }
@@ -128,18 +128,11 @@ header {
   color: #fff;
   white-space: nowrap;
   background-color: #293449;
-  background-image: url("../picts/search-icons.png");
+  background-image: url("../img/sprite.png");
   background-repeat: no-repeat;
-  background-position: 15px 13.5px;
+  background-position: 0 -1079px;
   border: none;
   overflow: hidden;
-}
-
-.search::-webkit-input-placeholder,
-.search::-moz-placeholder,
-.search:-moz-placeholder,
-.search:-ms-input-placeholder{
-  color:#fff;
 }
 
 .bookmark-count,
@@ -151,13 +144,13 @@ header {
 
 .search:hover {
   background-color: #212a3a;
-  background-position: 15px -37px;
+  background-position: 0 -1190px;
 }
 
 .search:focus {
   color: #000;
   background-color: #fff;
-  background-position: 15px -87px;
+  background-position: 0 -1153px;
   outline: none;
 }
 
@@ -1610,4 +1603,256 @@ a.icon-instagramm:before {
 .designer a:active {
   color: #9f3545;
   text-decoration: none;
+}
+
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-icon-basket {
+    width: 17px;
+    height: 16px;
+    background-position: -10px -10px;
+}
+
+.sprite-icon-bc-right {
+    width: 8px;
+    height: 12px;
+    background-position: -10px -46px;
+}
+
+.sprite-icon-check-off {
+    width: 23px;
+    height: 23px;
+    background-position: -10px -78px;
+}
+
+.sprite-icon-check-off-b {
+    width: 23px;
+    height: 23px;
+    background-position: -10px -121px;
+}
+
+.sprite-icon-check-off-h {
+    width: 23px;
+    height: 23px;
+    background-position: -10px -164px;
+}
+
+.sprite-icon-check-on {
+    width: 27px;
+    height: 23px;
+    background-position: -10px -207px;
+}
+
+.sprite-icon-check-on-b {
+    width: 27px;
+    height: 23px;
+    background-position: -10px -250px;
+}
+
+.sprite-icon-check-on-h {
+    width: 27px;
+    height: 23px;
+    background-position: -10px -293px;
+}
+
+.sprite-icon-fb {
+    width: 10px;
+    height: 18px;
+    background-position: -10px -336px;
+}
+
+.sprite-icon-flag {
+    width: 14px;
+    height: 16px;
+    background-position: -10px -374px;
+}
+
+.sprite-icon-home {
+    width: 15px;
+    height: 12px;
+    background-position: -10px -410px;
+}
+
+.sprite-icon-left {
+    width: 22px;
+    height: 40px;
+    background-position: -10px -442px;
+}
+
+.sprite-icon-login {
+    width: 20px;
+    height: 17px;
+    background-position: -10px -502px;
+}
+
+.sprite-icon-login-c {
+    width: 20px;
+    height: 17px;
+    background-position: -10px -539px;
+}
+
+.sprite-icon-login-h {
+    width: 20px;
+    height: 17px;
+    background-position: -10px -576px;
+}
+
+.sprite-icon-logout {
+    width: 21px;
+    height: 17px;
+    background-position: -10px -613px;
+}
+
+.sprite-icon-logout-c {
+    width: 21px;
+    height: 17px;
+    background-position: -10px -650px;
+}
+
+.sprite-icon-logout-h {
+    width: 21px;
+    height: 17px;
+    background-position: -10px -687px;
+}
+
+.sprite-icon-phone {
+    width: 19px;
+    height: 19px;
+    background-position: -10px -724px;
+}
+
+.sprite-icon-radio-off {
+    width: 25px;
+    height: 25px;
+    background-position: -10px -763px;
+}
+
+.sprite-icon-radio-off-b {
+    width: 25px;
+    height: 25px;
+    background-position: -10px -808px;
+}
+
+.sprite-icon-radio-off-h {
+    width: 25px;
+    height: 25px;
+    background-position: -10px -853px;
+}
+
+.sprite-icon-radio-on {
+    width: 25px;
+    height: 25px;
+    background-position: -10px -898px;
+}
+
+.sprite-icon-radio-on-b {
+    width: 25px;
+    height: 25px;
+    background-position: -10px -943px;
+}
+
+.sprite-icon-radio-on-h {
+    width: 25px;
+    height: 25px;
+    background-position: -10px -988px;
+}
+
+.sprite-icon-right {
+    width: 22px;
+    height: 40px;
+    background-position: -10px -1033px;
+}
+
+.sprite-icon-search {
+    width: 17px;
+    height: 17px;
+    background-position: -10px -1093px;
+}
+
+.sprite-icon-search-c {
+    width: 17px;
+    height: 17px;
+    background-position: -10px -1130px;
+}
+
+.sprite-icon-search-f {
+    width: 17px;
+    height: 17px;
+    background-position: -10px -1167px;
+}
+
+.sprite-icon-search-h {
+    width: 17px;
+    height: 17px;
+    background-position: -10px -1204px;
+}
+
+.sprite-icon-twiter {
+    width: 17px;
+    height: 17px;
+    background-position: -10px -1241px;
+}
+
+.sprite-icon-user {
+    width: 20px;
+    height: 18px;
+    background-position: -10px -1278px;
+}
+
+.sprite-icon-user-c {
+    width: 20px;
+    height: 18px;
+    background-position: -10px -1316px;
+}
+
+.sprite-icon-user-h {
+    width: 20px;
+    height: 18px;
+    background-position: -10px -1354px;
+}
+
+.sprite-icon-vk {
+    width: 20px;
+    height: 12px;
+    background-position: -10px -1392px;
+}
+
+.sprite-sort-down {
+    width: 11px;
+    height: 10px;
+    background-position: -10px -1424px;
+}
+
+.sprite-sort-down-a {
+    width: 9px;
+    height: 9px;
+    background-position: -10px -1454px;
+}
+
+.sprite-sort-down-h {
+    width: 11px;
+    height: 10px;
+    background-position: -10px -1483px;
+}
+
+.sprite-sort-up {
+    width: 11px;
+    height: 10px;
+    background-position: -10px -1513px;
+}
+
+.sprite-sort-up-a {
+    width: 11px;
+    height: 10px;
+    background-position: -10px -1543px;
+}
+
+.sprite-sort-up-h {
+    width: 11px;
+    height: 10px;
+    background-position: -10px -1573px;
 }
