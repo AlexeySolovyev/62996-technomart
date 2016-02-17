@@ -42,18 +42,16 @@ html, body {
 .btn:hover { background-color: #ca2c37; }
 .btn:active { background-color: #ba2732; }
 
-.flag-new {
+.new-banner {
   position: absolute;
   top: 0;
   right: 0;
   z-index: 10;
-  text-indent: -10000px;
   display: none;
   width: 60px;
   height: 60px;
-  background-image: url("../img/all-icons.png");
+  background-image: url("../img/new-banner.png");
   background-repeat: no-repeat;
-  background-position: 0 -800px;
 }
 
 .item-new {
@@ -166,9 +164,12 @@ header {
 .spec-menu-item {
   display: inline-block;
   padding: 14px 0;
-  padding-left: 12px;
+  padding-left: 40px;
   padding-right: 30px;
   font-size: 17px;
+  background-image: url("../img/sprite.png");
+  background-repeat: no-repeat;
+  background-position: 0 -1079px;
 }
 
 a.spec-menu-item:before {
@@ -246,7 +247,7 @@ a.spec-menu-item:before {
   margin-bottom: 8px;
   font-size: 21px;
   color: #e9292a;
-  border: 3px solid #fff;
+  border: 3px solid #ffffff;
 }
 
  p.icon-phone:before {
@@ -865,7 +866,7 @@ a.icon-right:before {
 .catalog-item:hover .actions { display: block; }
 .catalog-item:hover { box-shadow: 0 5px 15px 3px #bababa; }
 
-.catalog-item:hover .flag-new {
+.catalog-item:hover .new-banner {
   top: 0;
   right: 0;
 }
@@ -1178,9 +1179,8 @@ a.btn-next {
   width: 10px;
   height: 272px;
   margin-top: -136px;
-  background-image: url("../picts/pictures.png");
+  background-image: url("../img/vert-border.png");
   background-repeat: no-repeat;
-  background-position: -100px 0;
 }
 
 .tabs a {
@@ -1270,9 +1270,8 @@ a.btn-next {
   right: 0;
   width: 468px;
   height: 261px;
-  background-image: url("../img/delivery.png");
+  background-image: url("../img/service-delivery.png");
   background-repeat: no-repeat;
-  background-position: 0 0;
 }
 
 .tab-second:after {
@@ -1283,9 +1282,8 @@ a.btn-next {
   z-index: 0;
   width: 468px;
   height: 261px;
-  background-image: url("../img/garanty.png");
+  background-image: url("../img/service-guaranty.png");
   background-repeat: no-repeat;
-  background-position: 0 0;
 }
 
 .tab-third:after {
@@ -1296,9 +1294,8 @@ a.btn-next {
   z-index: 0;
   width: 468px;
   height: 261px;
-  background-image: url("../img/credit.png");
+  background-image: url("../img/service-credit.png");
   background-repeat: no-repeat;
-  background-position: 0 0;
 }
 
 /*---------------------*\
@@ -1345,11 +1342,12 @@ a.btn-next {
   display: inline-block;
   width: 25px;
   height: 2px;
-  background: url("../picts/all-icons.png") no-repeat 0 -875px;
+  background: url("../img/sprite.png") no-repeat -10px -1424px;
 }
 
 .more-btn {
   padding: 10px 40px;
+  width: 140px;
   margin: 0;
   margin-top: 5px;
 }
@@ -1593,11 +1591,13 @@ footer { color: #fff; }
     $Верхняя часть футера
   \*---------------------*/
 
-.footer-top-panel { background-color: #32425c; }
+.footer-top-panel {
+  background-color: #32425c;
+}
 
 .footer-address {
   float: left;
-  width: 240px;
+  width: 320px;
   margin-bottom: 45px;
 }
 
@@ -1621,7 +1621,7 @@ footer { color: #fff; }
 
 .footer-menu {
   float: right;
-  width: 650px;
+  width: 560px;
 }
 
 .menu {
@@ -1740,7 +1740,7 @@ a.icon-instagramm:before {
 }
 
 .sprite {
-    background-image: url(spritesheet.png);
+    background-image: url("../img/sprite.png");
     background-repeat: no-repeat;
     display: block;
 }
@@ -1955,38 +1955,44 @@ a.icon-instagramm:before {
     background-position: -10px -1392px;
 }
 
+.sprite-red-line {
+    width: 25px;
+    height: 2px;
+    background-position: -10px -1424px;
+}
+
 .sprite-sort-down {
     width: 11px;
     height: 10px;
-    background-position: -10px -1424px;
+    background-position: -10px -1446px;
 }
 
 .sprite-sort-down-a {
     width: 9px;
     height: 9px;
-    background-position: -10px -1454px;
+    background-position: -10px -1476px;
 }
 
 .sprite-sort-down-h {
     width: 11px;
     height: 10px;
-    background-position: -10px -1483px;
+    background-position: -10px -1505px;
 }
 
 .sprite-sort-up {
     width: 11px;
     height: 10px;
-    background-position: -10px -1513px;
+    background-position: -10px -1535px;
 }
 
 .sprite-sort-up-a {
     width: 11px;
     height: 10px;
-    background-position: -10px -1543px;
+    background-position: -10px -1565px;
 }
 
 .sprite-sort-up-h {
     width: 11px;
     height: 10px;
-    background-position: -10px -1573px;
+    background-position: -10px -1595px;
 }
