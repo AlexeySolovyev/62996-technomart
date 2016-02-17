@@ -201,7 +201,7 @@ a.spec-menu-item:before {
 
 .address {
   float: left;
-  width: 220px;
+  width: 260px;
   margin-left: 75px;
 }
 
@@ -224,8 +224,9 @@ a.spec-menu-item:before {
 }
 
 .street {
+  font-size: 14px;
   margin: 0;
-  margin-left: 15px;
+  margin-left: 5px;
   line-height: 18px;
   color: #32425c;
 }
