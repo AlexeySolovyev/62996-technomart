@@ -280,10 +280,12 @@ a.icon-login:before {
 
 .user-menu-profile-btn {
   position: relative;
+  width: 290px;
   padding: 10px 0;
   padding-left: 10px;
   padding-right: 10px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 a.icon-user:before {
