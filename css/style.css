@@ -61,12 +61,6 @@ html, body {
 
 .new { display: inline-block; }
 
-[class^="icon-"]:before,
-[class*=" icon-"]:before {
-  padding: 0;
-  opacity: .3;
-}
-
 .clearfix:after {
   content: "";
   display: table;
@@ -167,9 +161,6 @@ header {
   padding-left: 40px;
   padding-right: 30px;
   font-size: 17px;
-  background-image: url("../img/sprite.png");
-  background-repeat: no-repeat;
-  background-position: 0 -1079px;
 }
 
 a.spec-menu-item:before {
@@ -190,11 +181,6 @@ a.spec-menu-item:before {
 .bookmark:active,
 .basket:active {
   background-color: #161d29;
-}
-
-.active-bookmark,
-.active-basket {
-  background-color: #ee3643;
 }
 
 .order {
