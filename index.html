@@ -3,8 +3,8 @@
   <head>
     <title>Интернет-магазин Техномарт</title>
     <meta charset="UTF-8">
-    <link href="http://fonts.googleapis.com/css?family=Cuprum:400,700,400italic,700italic&subset=latin,cyrillic" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,700,400italic,700italic&subset=latin,cyrillic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -23,7 +23,7 @@
       </section>
       <div class="container">
         <section class="header-middle-panel clearfix">
-          <p class="shop-description">Интернет магазин строительных материалов и инструментов для ремонта</p>
+          <h1 class="shop-description">Интернет магазин строительных материалов и инструментов для ремонта</h1>
           <div class="address">
             <p class="phone-number">+7 (812) 555-05-55</p>
             <p class="street">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
@@ -52,8 +52,7 @@
     </header>
 
     <div class="container">
-      <section class="promo-block clearfix">
-        <div class="clearfix">
+      <section class="promo-block-top clearfix">
           <div class="block materials">
             <div class="new-banner new"></div>
             <div class="block-title"> Материалы</div>
@@ -69,7 +68,9 @@
             <div class="block-title">Техника</div>
             <a class="block-btn" href="#">Для стройки</a>
           </div>
-        </div>
+        </section>
+
+        <section class="promo-block-bottom clearfix">
         <section class="promo-slider">
           <div class="promo-slide promo-slide-1 active-promo-slide">
             <div class="promo-slide-title">
@@ -93,6 +94,8 @@
             <div class="switch-btn switch-btn-2"></div>
           </div>
         </section>
+
+        <section class="promo-block-bottom-right">
         <div class="block sale">
           <div class="new-banner"></div>
           <div class="block-title">Скидка 50%</div>
@@ -104,6 +107,8 @@
           <a class="block-btn" href="#">Бесплатно</a>
         </div>
       </section>
+    </section>
+
       <section class="index-title clearfix">
         <h3>Популярные товары</h3>
         <a class="btn all-items-btn" href="#">Все популярные товары</a>
@@ -190,7 +195,7 @@
 
     <section class="services">
       <div class="container">
-        <p class="services-title">Сервисы</p>
+        <h2 class="services-title">Сервисы</h2>
         <p class="services-description">Хороший интернет-магазин отличается от плохого не только ценами!<br>
           Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
         <section class="services-tab clearfix">
@@ -292,5 +297,38 @@
         </div>
       </section>
     </footer>
+
+    <div class="modal-content-map">
+      <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6037999040354!2d30.322010416394033!3d59.938716271971415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2sBolshaya+Konyushennaya+ul.%2C+19%2C+Sankt-Peterburg%2C+Russia%2C+191186!5e0!3m2!1sen!2s!4v1441888483426" width="940" height="446" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+
+    <div class="modal-content">
+      <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
+      <form class="contact-us-form" action="https://echo.htmlacademy.ru" method="post">
+        <div class="modal-inner-content">
+        <div class="form-line">
+        <div class="form-item user-name">
+        <label for="user-name">Ваше имя:</label>
+        <input type="text" name="user-name" id="user-name" placeholder="Представьтесь, пожалуйста">
+        </div>
+        <div class="form-item email">
+        <label for="email">Ваш e-mail:</label>
+        <input  type="text"  name="email" id="email" placeholder="Для отправки ответа">
+        </div>
+          </div>
+        <div class="form-line">
+        <div class="form-item comment">
+        <label for="comment">Текст письма:</label>
+        <textarea    name="comment" id="comment" placeholder="В свободной форме"></textarea>
+        </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+        <button class="btn" type="submit">Отправить</button>
+        </div>
+      </form>
+    </div>
+
   </body>
 </html>

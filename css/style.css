@@ -170,6 +170,16 @@ a.spec-menu-item:before {
   background-color: #161d29;
 }
 
+.bookmark {
+  position: absolute;
+}
+
+.icon-bookmark {
+  position: relative;
+  background: url("../img/sprite.png") no-repeat;
+  background-position: -10px -374px;
+}
+
 .order {
   display: inline-block;
   padding: 14px 20px;
@@ -194,6 +204,8 @@ a.spec-menu-item:before {
   margin: 0;
   margin-left: 50px;
   margin-top: 5px;
+  font-size: 16px;
+  font-weight: 300;
   line-height: 23px;
   font-style: italic;
   color: #ee3643;
@@ -214,6 +226,7 @@ a.spec-menu-item:before {
   margin: 0;
   margin-bottom: 8px;
   font-size: 21px;
+  text-align: center;
   color: #e9292a;
   border: 3px solid #ffffff;
 }
@@ -445,8 +458,13 @@ a.icon-logout:before {
   margin-bottom: 0;
 }
 
-.promo-block {
+.promo-block-bottom {
   margin-bottom: 30px;
+}
+
+.promo-block-bottom-right {
+  float: right;
+  width: 300px;
 }
 
 .block {
@@ -742,8 +760,12 @@ a.icon-right:before {
 }
 
 .catalog-item img {
+  position: absolute;
   max-width: 210px;
   max-height: 170px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .actions {
@@ -830,9 +852,10 @@ a.icon-right:before {
 }
 
 .image {
+  position: relative;
   width: 218px;
-  height: 130px;
-  padding-top: 30px;
+  height: 160px;
+
 }
 
 .catalog-item > .title {
@@ -1046,6 +1069,7 @@ a.btn-next {
 }
 
 .catalog-firm {
+  position: relative;
   float: left;
   width: 218px;
   height: 145px;
@@ -1075,35 +1099,14 @@ a.btn-next {
 }
 
 .catalog-firm img {
+  position: absolute;
   display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   max-width: 210px;
   max-height: 130px;
-  margin: 0 auto;
-}
 
-.catalog-firm .firm-logotip-1 {
-  margin-top: 55px;
-}
-.catalog-firm .firm-logotip-2 {
-  margin-top: 55px;
-}
-.catalog-firm .firm-logotip-3 {
-  margin-top: 50px;
-}
-.catalog-firm .firm-logotip-4 {
-  margin-top: 20px;
-}
-.catalog-firm .firm-logotip-5 {
-  margin-top: 55px;
-}
-.catalog-firm .firm-logotip-6 {
-  margin-top: 35px;
-}
-.catalog-firm .firm-logotip-7 {
-  margin-top: 25px;
-}
-.catalog-firm .firm-logotip-8 {
-  margin-top: 35px;
 }
 
 .services {
@@ -1115,6 +1118,7 @@ a.btn-next {
   margin-top: 60px;
   margin-bottom: 25px;
   font-size: 30px;
+  line-height: 24px;
   text-transform: uppercase;
 }
 
@@ -1982,4 +1986,163 @@ a.icon-instagramm:before {
     width: 11px;
     height: 10px;
     background-position: -10px -1595px;
+}
+
+.modal-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 10000;
+  display: none;
+  width: 620px;
+  height: 430px;
+  margin-top: -210px;
+  margin-left: -310px;
+  color: #000000;
+  border-top:7px solid #ee3643;
+  background: #fff;
+  box-shadow: 0 20px 40px rgba(0, 1, 1, 0.75);
+
+}
+
+.modal-content-map {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 10000;
+  display: none;
+  width: 940px;
+  height: 446px;
+  margin-top: -220px;
+  margin-left: -470px;
+  background-color: #444;
+  box-shadow: 0 0 14.7px 1.3px rgba(35, 31, 32, 0.5);
+}
+
+.modal-content-show {
+  display: block;
+  animation: bounce 0.6s;
+}
+
+.modal-error {
+  animation: shake 0.6s;
+}
+
+.modal-content-close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+
+  width: 22px;
+  height: 22px;
+
+  font-size: 0;
+
+  background: none;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+.modal-content-close::before,
+.modal-content-close::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 2px;
+
+  width: 19px;
+  height: 3px;
+  background-color: #ee3643;
+  border-radius: 1px;
+}
+.modal-content-close::before {
+  transform: rotate(45deg);
+}
+
+.modal-content-close::after {
+  transform: rotate(-45deg);
+}
+
+.contact-us-form  .modal-inner-content {
+ padding: 40px 80px  ;
+
+}
+
+.contact-us-form .form-line:first-of-type {
+ margin-bottom: 20px;
+ overflow: hidden;
+}
+
+.contact-us-form .form-item.user-name {
+ float: left;
+ width: 220px;
+ margin-right: 20px;
+}
+
+.contact-us-form .form-item.email {
+ float: right;
+ width: 220px;
+}
+
+
+.contact-us-form label {
+ display: inline-block;
+ margin-bottom: 10px;
+ color: #000;
+ font-family: "Cuprum";
+ font-size: 18px;
+ font-weight: 400;
+}
+.contact-us-form input[type="text"] {
+ box-sizing: border-box;
+ width:220px;
+ background-color: #FFF;
+ border: 2px solid #D7DCDE;
+ padding: 10px 15px;
+
+ color: #999;
+ font-family: "PTSans";
+ font-size: 13px;
+ font-weight: 400;
+ outline: none;
+}
+.contact-us-form textarea {
+ box-sizing: border-box;
+ width: 100%;
+ height: 114px;
+ background-color: #fff;
+ border: 2px solid #D7DCDE;
+ resize: none;
+ padding: 10px 15px;
+
+ color: #999;
+ font-family: "PTSans";
+ font-size: 13px;
+ font-weight: 400;
+ outline: none;
+}
+.contact-us-form input:focus {
+ border-color: #663d15;
+}
+
+.contact-us-form .modal-footer {
+ background-color: #F1F1F1;
+ padding: 37px 80px;
+
+}
+
+.contact-us-form .btn {
+ width: 100%;
+
+ line-height: 12px;
+ border:none;
+ background-color: #EE3643;
+
+ color: #fff;
+ font-family: "Cuprum";
+ font-size: 14px;
+ font-weight: 400;
+ text-transform: uppercase;
+
 }
