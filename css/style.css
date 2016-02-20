@@ -1778,6 +1778,8 @@ footer {
 
 .btn-social {
   display: inline-block;
+  width: 20px;
+  height: 20px;
   padding: 12px 12px;
   font-size: 18px;
   background-color: #212a3a;
@@ -1791,12 +1793,12 @@ footer {
 .icon-vk:before {
   content: "";
   position: absolute;
-  left: 0;
-  top: 0;
-  width: 20px;
-  height: 20px;
+  left: 10px;
+  top: 10px;
+  width: 22px;
+  height: 22px;
   background: url("../img/sprite.png") no-repeat;
-  background-position: -9px -1780px;
+  background-position: -9px -1781px;
 }
 
 a.icon-vk:before {
@@ -1812,12 +1814,12 @@ a.icon-vk:before {
 .icon-facebook:before {
   content: "";
   position: absolute;
-  left: 0;
-  top: 0;
-  width: 20px;
-  height: 20px;
+  left: 10px;
+  top: 10px;
+  width: 22px;
+  height: 22px;
   background: url("../img/sprite.png") no-repeat;
-  background-position: -4px -643px;
+  background-position: -3px -643px;
 }
 
 a.icon-facebook:before {
@@ -1833,12 +1835,12 @@ a.icon-facebook:before {
 .icon-instagramm:before {
   content: "";
   position: absolute;
-  left: 0;
-  top: 0;
-  width: 20px;
-  height: 20px;
+  left: 10px;
+  top: 10px;
+  width: 22px;
+  height: 22px;
   background: url("../img/sprite.png") no-repeat;
-  background-position: -7px -712px;
+  background-position: -6px -712px;
 }
 
 a.icon-instagramm:before {
