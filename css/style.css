@@ -113,7 +113,7 @@ header {
   background-color: #293449;
   background-image: url("../img/sprite.png");
   background-repeat: no-repeat;
-  background-position: 0 -1079px;
+  background-position: 6px -1420px;
   border: none;
   overflow: hidden;
 }
@@ -127,13 +127,13 @@ header {
 
 .search:hover {
   background-color: #212a3a;
-  background-position: 0 -1190px;
+  background-position: 6px -1531px;
 }
 
 .search:focus {
   color: #000;
-  background-color: #fff;
-  background-position: 0 -1153px;
+  background-color: #ffffff;
+  background-position: 6px -1494px;
   outline: none;
 }
 
@@ -165,19 +165,38 @@ a.spec-menu-item:before {
   opacity: .7;
 }
 
-.bookmark:active,
-.basket:active {
-  background-color: #161d29;
-}
-
-.bookmark {
-  position: absolute;
-}
-
 .icon-bookmark {
   position: relative;
   background: url("../img/sprite.png") no-repeat;
-  background-position: -10px -374px;
+  background-position: 2px -139px;
+}
+
+.icon-bookmark:hover {
+  background: url("../img/sprite.png") no-repeat;
+  background-position: 2px -247px;
+}
+
+.icon-bookmark:active {
+  background: url("../img/sprite.png") no-repeat;
+  background-position: 2px -175px;
+  background-color: #161d29;
+}
+
+.icon-basket {
+  position: relative;
+  background: url("../img/sprite.png") no-repeat;
+  background-position: 0 5px;
+}
+
+.icon-basket:hover {
+  background: url("../img/sprite.png") no-repeat;
+  background-position: 0 -103px;
+}
+
+.icon-basket:active {
+  background: url("../img/sprite.png") no-repeat;
+  background-position: 0 -31px;
+  background-color: #161d29;
 }
 
 .order {
@@ -218,17 +237,22 @@ a.spec-menu-item:before {
 }
 
 .phone-number {
-  position: relative;
+  position: absolute;
   display: block;
   padding: 8px 0;
-  padding-left: 10px;
-  padding-right: 20px;
+  padding-left: 30px;
   margin: 0;
   margin-bottom: 8px;
   font-size: 21px;
   text-align: center;
   color: #e9292a;
   border: 3px solid #ffffff;
+}
+
+.icon-phone {
+  position: relative;
+  background: url("../img/sprite.png") no-repeat;
+  background-position: 2px -1023px;
 }
 
  p.icon-phone:before {
@@ -304,7 +328,7 @@ a.icon-login:before {
 a.icon-user:before {
   padding-right: 10px;
   font-size: 18px;
-}
+  }
 
 .login-menu .user-menu-profile-btn:hover {
   color: #000;
@@ -1369,6 +1393,9 @@ a.btn-next {
 a.icon-home:before {
   padding-right: 0;
   font-size: 16px;
+  position: relative;
+  background: url("../img/sprite.png") no-repeat;
+  background-position: -4px -1673px;
 }
 
 .breadcrumbs a.icon-right:before,
@@ -1671,10 +1698,22 @@ footer {
   border-radius: 50%;
 }
 
+.icon-vk {
+  position: relative;
+  background: url("../img/sprite.png") no-repeat;
+  background-position: -8px -1780px;
+}
+
 a.icon-vk:before {
   padding: 0;
   margin: 0;
   opacity: 1;
+}
+
+.icon-facebook {
+  position: relative;
+  background: url("../img/sprite.png") no-repeat;
+  background-position: -4px -642px;
 }
 
 a.icon-facebook:before {
@@ -1687,6 +1726,12 @@ a.icon-instagramm:before {
   padding: 0;
   margin: 0;
   opacity: 1;
+}
+
+.icon-instagramm {
+  position: relative;
+  background: url("../img/sprite.png") no-repeat;
+  background-position: -6px -712px;
 }
 
 .btn-social:hover {
@@ -1731,7 +1776,7 @@ a.icon-instagramm:before {
 }
 
 .sprite {
-    background-image: url("../img/sprite.png");
+    background-image: url(sprite.png);
     background-repeat: no-repeat;
     display: block;
 }
@@ -1742,251 +1787,282 @@ a.icon-instagramm:before {
     background-position: -10px -10px;
 }
 
-.sprite-icon-bc-right {
-    width: 8px;
-    height: 12px;
+.sprite-icon-basket-c {
+    width: 17px;
+    height: 16px;
     background-position: -10px -46px;
+}
+
+.sprite-icon-basket-f {
+    width: 17px;
+    height: 16px;
+    background-position: -10px -82px;
+}
+
+.sprite-icon-basket-h {
+    width: 17px;
+    height: 16px;
+    background-position: -10px -118px;
+}
+
+.sprite-icon-bookmark {
+    width: 14px;
+    height: 16px;
+    background-position: -10px -154px;
+}
+
+.sprite-icon-bookmark-c {
+    width: 14px;
+    height: 16px;
+    background-position: -10px -190px;
+}
+
+.sprite-icon-bookmark-f {
+    width: 14px;
+    height: 16px;
+    background-position: -10px -226px;
+}
+
+.sprite-icon-bookmark-h {
+    width: 14px;
+    height: 16px;
+    background-position: -10px -262px;
 }
 
 .sprite-icon-check-off {
     width: 23px;
     height: 23px;
-    background-position: -10px -78px;
+    background-position: -10px -298px;
 }
 
-.sprite-icon-check-off-b {
+.sprite-icon-check-off-a {
     width: 23px;
     height: 23px;
-    background-position: -10px -121px;
+    background-position: -10px -341px;
 }
 
 .sprite-icon-check-off-h {
     width: 23px;
     height: 23px;
-    background-position: -10px -164px;
+    background-position: -10px -384px;
 }
 
 .sprite-icon-check-on {
     width: 27px;
     height: 23px;
-    background-position: -10px -207px;
+    background-position: -10px -427px;
 }
 
-.sprite-icon-check-on-b {
+.sprite-icon-check-on-a {
     width: 27px;
     height: 23px;
-    background-position: -10px -250px;
+    background-position: -10px -470px;
 }
 
 .sprite-icon-check-on-h {
     width: 27px;
     height: 23px;
-    background-position: -10px -293px;
+    background-position: -10px -513px;
+}
+
+.sprite-icon-down-dir {
+    width: 11px;
+    height: 10px;
+    background-position: -10px -556px;
+}
+
+.sprite-icon-down-dir-a {
+    width: 9px;
+    height: 9px;
+    background-position: -10px -586px;
+}
+
+.sprite-icon-down-dir-h {
+    width: 11px;
+    height: 10px;
+    background-position: -10px -615px;
 }
 
 .sprite-icon-fb {
     width: 10px;
     height: 18px;
-    background-position: -10px -336px;
-}
-
-.sprite-icon-flag {
-    width: 14px;
-    height: 16px;
-    background-position: -10px -374px;
+    background-position: -10px -645px;
 }
 
 .sprite-icon-home {
     width: 15px;
     height: 12px;
-    background-position: -10px -410px;
+    background-position: -10px -683px;
+}
+
+.sprite-icon-inst {
+    width: 17px;
+    height: 17px;
+    background-position: -10px -715px;
 }
 
 .sprite-icon-left {
     width: 22px;
     height: 40px;
-    background-position: -10px -442px;
+    background-position: -10px -752px;
 }
 
 .sprite-icon-login {
     width: 20px;
     height: 17px;
-    background-position: -10px -502px;
+    background-position: -10px -812px;
 }
 
 .sprite-icon-login-c {
     width: 20px;
     height: 17px;
-    background-position: -10px -539px;
+    background-position: -10px -849px;
 }
 
 .sprite-icon-login-h {
     width: 20px;
     height: 17px;
-    background-position: -10px -576px;
+    background-position: -10px -886px;
 }
 
 .sprite-icon-logout {
     width: 21px;
     height: 17px;
-    background-position: -10px -613px;
+    background-position: -10px -923px;
 }
 
 .sprite-icon-logout-c {
     width: 21px;
     height: 17px;
-    background-position: -10px -650px;
+    background-position: -10px -960px;
 }
 
 .sprite-icon-logout-h {
     width: 21px;
     height: 17px;
-    background-position: -10px -687px;
+    background-position: -10px -997px;
 }
 
 .sprite-icon-phone {
     width: 19px;
     height: 19px;
-    background-position: -10px -724px;
+    background-position: -10px -1034px;
 }
 
 .sprite-icon-radio-off {
     width: 25px;
     height: 25px;
-    background-position: -10px -763px;
+    background-position: -10px -1073px;
 }
 
 .sprite-icon-radio-off-b {
     width: 25px;
     height: 25px;
-    background-position: -10px -808px;
+    background-position: -10px -1118px;
 }
 
 .sprite-icon-radio-off-h {
     width: 25px;
     height: 25px;
-    background-position: -10px -853px;
+    background-position: -10px -1163px;
 }
 
 .sprite-icon-radio-on {
     width: 25px;
     height: 25px;
-    background-position: -10px -898px;
+    background-position: -10px -1208px;
 }
 
-.sprite-icon-radio-on-b {
+.sprite-icon-radio-on-a {
     width: 25px;
     height: 25px;
-    background-position: -10px -943px;
+    background-position: -10px -1253px;
 }
 
 .sprite-icon-radio-on-h {
     width: 25px;
     height: 25px;
-    background-position: -10px -988px;
+    background-position: -10px -1298px;
 }
 
 .sprite-icon-right {
     width: 22px;
     height: 40px;
-    background-position: -10px -1033px;
+    background-position: -10px -1343px;
+}
+
+.sprite-icon-right-bc {
+    width: 8px;
+    height: 12px;
+    background-position: -10px -1403px;
 }
 
 .sprite-icon-search {
     width: 17px;
     height: 17px;
-    background-position: -10px -1093px;
+    background-position: -10px -1435px;
 }
 
 .sprite-icon-search-c {
     width: 17px;
     height: 17px;
-    background-position: -10px -1130px;
+    background-position: -10px -1472px;
 }
 
 .sprite-icon-search-f {
     width: 17px;
     height: 17px;
-    background-position: -10px -1167px;
+    background-position: -10px -1509px;
 }
 
 .sprite-icon-search-h {
     width: 17px;
     height: 17px;
-    background-position: -10px -1204px;
+    background-position: -10px -1546px;
 }
 
-.sprite-icon-twiter {
-    width: 17px;
-    height: 17px;
-    background-position: -10px -1241px;
+.sprite-icon-up-dir {
+    width: 11px;
+    height: 10px;
+    background-position: -10px -1583px;
+}
+
+.sprite-icon-up-dir-a {
+    width: 11px;
+    height: 10px;
+    background-position: -10px -1613px;
+}
+
+.sprite-icon-up-dir-h {
+    width: 11px;
+    height: 10px;
+    background-position: -10px -1643px;
 }
 
 .sprite-icon-user {
     width: 20px;
     height: 18px;
-    background-position: -10px -1278px;
+    background-position: -10px -1673px;
 }
 
 .sprite-icon-user-c {
     width: 20px;
     height: 18px;
-    background-position: -10px -1316px;
+    background-position: -10px -1711px;
 }
 
 .sprite-icon-user-h {
     width: 20px;
     height: 18px;
-    background-position: -10px -1354px;
+    background-position: -10px -1749px;
 }
 
 .sprite-icon-vk {
     width: 20px;
     height: 12px;
-    background-position: -10px -1392px;
+    background-position: -10px -1787px;
 }
 
-.sprite-red-line {
-    width: 25px;
-    height: 2px;
-    background-position: -10px -1424px;
-}
-
-.sprite-sort-down {
-    width: 11px;
-    height: 10px;
-    background-position: -10px -1446px;
-}
-
-.sprite-sort-down-a {
-    width: 9px;
-    height: 9px;
-    background-position: -10px -1476px;
-}
-
-.sprite-sort-down-h {
-    width: 11px;
-    height: 10px;
-    background-position: -10px -1505px;
-}
-
-.sprite-sort-up {
-    width: 11px;
-    height: 10px;
-    background-position: -10px -1535px;
-}
-
-.sprite-sort-up-a {
-    width: 11px;
-    height: 10px;
-    background-position: -10px -1565px;
-}
-
-.sprite-sort-up-h {
-    width: 11px;
-    height: 10px;
-    background-position: -10px -1595px;
-}
 
 .modal-content {
   position: fixed;
