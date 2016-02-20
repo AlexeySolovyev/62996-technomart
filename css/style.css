@@ -303,11 +303,26 @@ a.spec-menu-item:before {
 .account-menu-enter-btn {
   position: relative;
   padding: 10px 25px;
-  padding-left: 15px;
+  padding-left: 45px;
 }
 
 a.icon-login:before {
   padding-right: 5px;
+}
+
+.icon-login {
+  position: relative;
+}
+
+.icon-login::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 30px;
+  height: 30px;
+  background: url("../img/sprite.png") no-repeat;
+  background-position: 0 -802px;
 }
 
 .account-menu-registration-btn {
@@ -1393,9 +1408,6 @@ a.btn-next {
 a.icon-home:before {
   padding-right: 0;
   font-size: 16px;
-  position: relative;
-  background: url("../img/sprite.png") no-repeat;
-  background-position: -4px -1673px;
 }
 
 .breadcrumbs a.icon-right:before,
@@ -1505,6 +1517,7 @@ a.icon-home:before {
 
 .catalog-control-header {
   position: relative;
+  margin-bottom: 30px;
 }
 
 .catalog-control-sub-title {
@@ -1542,6 +1555,7 @@ a.icon-up:before {
 
 .selector li {
   position: relative;
+  margin-bottom: 20px;
 }
 
 .selector li a{
@@ -1568,6 +1582,78 @@ a.icon-circle:hover:before,
 a.icon-circle-dot:hover:before,
 a.icon-up:hover:before {
   opacity: .5;
+}
+
+.firm-select input[type="checkbox"] {
+  display: none;
+}
+
+.firm-checkbox {
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+.firm-checkbox:hover {
+  color: red;
+}
+
+.firm-checkbox input[type="checkbox"] + .checkbox-indicator::before  {
+  position: absolute;
+  top: -3px;
+  left: 0;
+  background: url("../img/sprite.png") no-repeat;
+  width: 27px;
+  height: 27px;
+  background-position: -10px -298px;
+  content: "";
+}
+
+.firm-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before {
+  position: absolute;
+  top: -3px;
+  left: 0;
+  background: url("../img/sprite.png") no-repeat;
+  width: 27px;
+  height: 27px;
+  background-position: -10px -427px;
+  content: "";
+}
+
+.power-select input[type="radio"] {
+  display: none;
+}
+
+.power-radio {
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+.power-radio:hover {
+  color: red;
+}
+
+.power-radio input[type="radio"] + .power-indicator::before  {
+  position: absolute;
+  top: -3px;
+  left: 0;
+  background: url("../img/sprite.png") no-repeat;
+  width: 27px;
+  height: 27px;
+  background-position: -10px -1073px;
+  content: "";
+}
+
+.power-radio input[type="radio"]:checked + .power-indicator::before {
+  position: absolute;
+  top: -3px;
+  left: 0;
+  background: url("../img/sprite.png") no-repeat;
+  width: 27px;
+  height: 27px;
+  background-position: -10px -1208px;
+  content: "";
 }
 
 a.blocked:before {
@@ -1700,8 +1786,17 @@ footer {
 
 .icon-vk {
   position: relative;
+}
+
+.icon-vk:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
   background: url("../img/sprite.png") no-repeat;
-  background-position: -8px -1780px;
+  background-position: -9px -1780px;
 }
 
 a.icon-vk:before {
@@ -1712,8 +1807,17 @@ a.icon-vk:before {
 
 .icon-facebook {
   position: relative;
+}
+
+.icon-facebook:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
   background: url("../img/sprite.png") no-repeat;
-  background-position: -4px -642px;
+  background-position: -4px -643px;
 }
 
 a.icon-facebook:before {
@@ -1722,17 +1826,27 @@ a.icon-facebook:before {
   opacity: 1;
 }
 
+.icon-instagramm {
+  position: relative;
+}
+
+.icon-instagramm:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  background: url("../img/sprite.png") no-repeat;
+  background-position: -7px -712px;
+}
+
 a.icon-instagramm:before {
   padding: 0;
   margin: 0;
   opacity: 1;
 }
 
-.icon-instagramm {
-  position: relative;
-  background: url("../img/sprite.png") no-repeat;
-  background-position: -6px -712px;
-}
 
 .btn-social:hover {
   background-color: #ee3643;
