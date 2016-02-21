@@ -53,10 +53,10 @@
 
     <div class="container clearfix">
       <div class="breadcrumbs">
-          <a class="icon-home" href="/"></a>
-          <a class="icon-right" href="#">Каталог</a>
-          <a class="icon-right" href="#">Инструмент</a>
-          <span class="icon-right">Перфораторы</span>
+          <a class="icon-home" href="index.html"></a>
+          <a class="icon-right-bc" href="catalog.html">Каталог</a>
+          <a class="icon-right-bc" href="#">Инструмент</a>
+          <span class="icon-right-bc">Перфораторы</span>
       </div>
       <h1 class="catalog-title">Перфораторы</h1>
       <aside class="catalog-refine-controls">
@@ -69,13 +69,15 @@
           </div>
           <div class="catalog-range-filter">
             <div class="range-controls">
-              <div class="scala"><div class="bar"></div></div>
+              <div class="scala">
+                <div class="bar"></div>
+              </div>
               <div class="toggle min-toggle"></div>
               <div class="toggle max-toggle"></div>
             </div>
             <div class="price-controls">
               <input class="min-price" type="text" value="0"> -
-              <input class="max-price" type="text" value="30 000">
+              <input class="max-price" type="text" value="30000">
             </div>
           </div>
         </section>
@@ -87,31 +89,31 @@
             <ul class="firm-selector selector">
               <li>
                 <label class="firm-checkbox">
-                  <input type="checkbox">
+                  <input type="checkbox" name="bosh1" checked>
                   <span class="checkbox-indicator">Bosch</span>
                 </label>
               </li>
               <li>
                 <label class="firm-checkbox">
-                  <input type="checkbox">
+                  <input type="checkbox" name="interscol1">
                   <span class="checkbox-indicator">Интерскол</span>
                 </label>
               </li>
               <li>
                 <label class="firm-checkbox">
-                  <input type="checkbox">
+                  <input type="checkbox" name="makita1" checked>
                   <span class="checkbox-indicator">Makita</span>
                 </label>
               </li>
               <li>
                 <label class="firm-checkbox">
-                  <input type="checkbox">
+                  <input type="checkbox" name="dewalt1">
                   <span class="checkbox-indicator">Dewalt</span>
                 </label>
               </li>
               <li>
                 <label class="firm-checkbox">
-                  <input type="checkbox">
+                  <input type="checkbox" name="hitachi1">
                   <span class="checkbox-indicator">Hitachi</span>
                 </label>
               </li>
@@ -126,7 +128,7 @@
             <ul class="power-selector selector">
               <li>
                 <label class="power-radio">
-                  <input type="radio" name="check">
+                  <input type="radio" name="check" checked>
                   <span class="power-indicator">Аккумуляторные</span>
                 </label>
               </li>
@@ -138,7 +140,7 @@
               </li>
             </ul>
           </div>
-          <form action="button">Показать</form>
+          <a href="#" class="show-items">Показать</a>
         </section>
       </aside>
       <section class="catalog-items catalog-catalog-items">
@@ -152,7 +154,7 @@
         </div>
         <div class="catalog-item-wrapper">
           <div class="catalog-item catalog-catalog-item">
-            <div class="flag-new item-new"></div>
+            <div class="new-banner item-new"></div>
             <div class="actions">
                 <a href="#" class="icon-basket item-btn buy">Купить</a>
                 <a href="#" class="item-btn bookmark">В закладки</a>
@@ -163,7 +165,7 @@
             <div class="price">15 500 Р.</div>
           </div>
           <div class="catalog-item catalog-catalog-item">
-            <div class="flag-new item-new"></div>
+            <div class="new-banner item-new"></div>
             <div class="actions">
                 <a href="#" class="icon-basket item-btn buy">Купить</a>
                 <a href="#" class="item-btn bookmark">В закладки</a>
@@ -174,7 +176,7 @@
             <div class="price">25 500 Р.</div>
           </div>
           <div class="catalog-item catalog-catalog-item">
-            <div class="flag-new item-new new">Новинка</div>
+            <div class="new-banner item-new new"></div>
             <div class="actions">
                 <a href="#" class="icon-basket item-btn buy">Купить</a>
                 <a href="#" class="item-btn bookmark">В закладки</a>
@@ -185,7 +187,7 @@
             <div class="price">12 500 Р.</div>
           </div>
           <div class="catalog-item catalog-catalog-item">
-            <div class="flag-new item-new"></div>
+            <div class="new-banner item-new"></div>
             <div class="actions">
                 <a href="#" class="icon-basket item-btn buy">Купить</a>
                 <a href="#" class="item-btn bookmark">В закладки</a>
@@ -196,7 +198,7 @@
             <div class="price">15 500 Р.</div>
           </div>
           <div class="catalog-item catalog-catalog-item">
-            <div class="flag-new item-new new">Новинка</div>
+            <div class="new-banner item-new new"></div>
             <div class="actions">
                 <a href="#" class="icon-basket item-btn buy">Купить</a>
                 <a href="#" class="item-btn bookmark">В закладки</a>
@@ -207,7 +209,7 @@
             <div class="price">25 500 Р.</div>
           </div>
           <div class="catalog-item catalog-catalog-item">
-            <div class="flag-new item-new"></div>
+            <div class="new-banner item-new"></div>
             <div class="actions">
                 <a href="#" class="icon-basket item-btn buy">Купить</a>
                 <a href="#" class="item-btn bookmark">В закладки</a>
@@ -218,7 +220,7 @@
             <div class="price">12 500 Р.</div>
           </div>
           <div class="catalog-item catalog-catalog-item">
-            <div class="flag-new item-new new">Новинка</div>
+            <div class="new-banner item-new new"></div>
             <div class="actions">
                 <a href="#" class="icon-basket item-btn buy">Купить</a>
                 <a href="#" class="item-btn bookmark">В закладки</a>
@@ -229,7 +231,7 @@
             <div class="price">15 500 Р.</div>
           </div>
           <div class="catalog-item catalog-catalog-item">
-            <div class="flag-new item-new"></div>
+            <div class="new-banner item-new"></div>
             <div class="actions">
                 <a href="#" class="icon-basket item-btn buy">Купить</a>
                 <a href="#" class="item-btn bookmark">В закладки</a>
@@ -240,7 +242,7 @@
             <div class="price">25 500 Р.</div>
           </div>
           <div class="catalog-item catalog-catalog-item">
-            <div class="flag-new item-new"></div>
+            <div class="new-banner item-new"></div>
             <div class="actions">
                 <a href="#" class="icon-basket item-btn buy">Купить</a>
                 <a href="#" class="item-btn bookmark">В закладки</a>
