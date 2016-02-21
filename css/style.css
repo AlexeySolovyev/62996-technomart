@@ -322,7 +322,17 @@ a.icon-login:before {
   width: 30px;
   height: 30px;
   background: url("../img/sprite.png") no-repeat;
-  background-position: 0 -802px;
+  background-position: 0 -803px;
+}
+
+.icon-login:hover::before {
+  background: url("../img/sprite.png") no-repeat;
+  background-position: 0 -877px;
+}
+
+.icon-login:active::before {
+  background: url("../img/sprite.png") no-repeat;
+  background-position: 0 -840px;
 }
 
 .account-menu-registration-btn {
@@ -687,7 +697,7 @@ a.promo-slider-btn:before {
   display: block;
   padding: 0;
   margin: 0;
-  margin-top: -23px;
+  margin-top: 110px;
   font-size: 46px;
   opacity: 1;
 }
@@ -697,9 +707,55 @@ a.icon-left:before {
   left: 15px;
 }
 
+.icon-left {
+  position: relative;
+}
+
+.icon-left::before {
+  content: "";
+  width: 40px;
+  height: 50px;
+  background: url("../img/sprite.png") no-repeat;
+  background-position: 0 -742px;
+}
+
+
+.icon-left:hover::before {
+  content: "";
+  width: 40px;
+  height: 50px;
+  background: url("../img/sprite.png") no-repeat;
+  background-position: 0 -742px;
+  opacity: 0.8;
+}
+
 a.icon-right:before {
   top: 50%;
-  right: 15px;
+
+}
+
+.icon-right {
+  position: relative;
+}
+
+.icon-right::before {
+  content: "";
+  width: 40px;
+  height: 50px;
+  right: -600px;
+  background: url("../img/sprite.png") no-repeat;
+  background-position: 0 -1333px;
+}
+
+
+.icon-right:hover::before {
+  content: "";
+  width: 40px;
+  height: 50px;
+  right: -600px;
+  background: url("../img/sprite.png") no-repeat;
+  background-position: 0 -1333px;
+  opacity: 0.8;
 }
 
 .open-catalog-btn {
@@ -1355,7 +1411,7 @@ a.btn-next {
   display: inline-block;
   width: 25px;
   height: 2px;
-  background: url("../img/sprite.png") no-repeat -10px -1424px;
+  background: url("../img/red-line.png") no-repeat;
 }
 
 .more-btn {
