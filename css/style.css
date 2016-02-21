@@ -538,7 +538,7 @@ a.icon-logout:before {
   margin-left: 25px;
   margin-bottom: 15px;
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 300;
   color: #fff;
 }
 
@@ -680,7 +680,8 @@ a.icon-logout:before {
   padding: 0;
   margin: 0;
   font-size: 36px;
-  font-weight: bold;
+  font-weight: 300;
+  padding-bottom: 2px;
   text-transform: uppercase;
 }
 
@@ -809,6 +810,7 @@ a.icon-right:before {
   margin: 25px 30px;
   margin-right: 0;
   font-size: 30px;
+  font-weight: 300;
   text-transform: uppercase;
   color: #32425c;
 }
@@ -1213,6 +1215,7 @@ a.btn-next {
   margin-top: 60px;
   margin-bottom: 25px;
   font-size: 30px;
+  font-weight: 300;
   line-height: 24px;
   text-transform: uppercase;
 }
@@ -1251,7 +1254,7 @@ a.btn-next {
   display: block;
   padding: 18px 22px;
   font-size: 21px;
-  font-weight: bold;
+  font-weight: 300;
   box-shadow:
     0 1px #293449,
     0 -1px #405069;
@@ -1395,7 +1398,7 @@ a.btn-next {
   margin-bottom: 38px;
   font-size: 18px;
   line-height: 20px;
-  font-weight: bold;
+  font-weight: 300;
   list-style: none;
 }
 
