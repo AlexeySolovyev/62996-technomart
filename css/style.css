@@ -1812,24 +1812,34 @@ a.icon-up:hover:before {
 
 .firm-checkbox input[type="checkbox"] + .checkbox-indicator::before  {
   position: absolute;
+  content: "";
   top: -3px;
   left: 0;
-  background: url("../img/sprite.png") no-repeat;
   width: 27px;
   height: 27px;
+  background: url("../img/sprite.png") no-repeat;
   background-position: -10px -298px;
-  content: "";
+}
+
+.firm-checkbox input[type="checkbox"] + .checkbox-indicator:hover::before  {
+  background: url("../img/sprite.png") no-repeat;
+  background-position: -10px -384px;
 }
 
 .firm-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before {
   position: absolute;
+  content: "";
   top: -3px;
   left: 0;
-  background: url("../img/sprite.png") no-repeat;
   width: 27px;
   height: 27px;
+  background: url("../img/sprite.png") no-repeat;
   background-position: -10px -427px;
-  content: "";
+}
+
+.firm-checkbox input[type="checkbox"]:checked + .checkbox-indicator:hover::before  {
+  background: url("../img/sprite.png") no-repeat;
+  background-position: -10px -513px;
 }
 
 .power-select input[type="radio"] {
@@ -1848,30 +1858,41 @@ a.icon-up:hover:before {
 
 .power-radio input[type="radio"] + .power-indicator::before  {
   position: absolute;
+  content: "";
   top: -3px;
   left: 0;
-  background: url("../img/sprite.png") no-repeat;
   width: 27px;
   height: 27px;
+  background: url("../img/sprite.png") no-repeat;
   background-position: -10px -1073px;
-  content: "";
+}
+
+.power-radio input[type="radio"] + .power-indicator:hover::before  {
+  background: url("../img/sprite.png") no-repeat;
+  background-position: -10px -1163px;
 }
 
 .power-radio input[type="radio"]:checked + .power-indicator::before {
   position: absolute;
+  content: "";
   top: -3px;
   left: 0;
-  background: url("../img/sprite.png") no-repeat;
   width: 27px;
   height: 27px;
+  background: url("../img/sprite.png") no-repeat;
   background-position: -10px -1208px;
-  content: "";
+}
+
+.power-radio input[type="radio"]:checked + .power-indicator:hover::before {
+  background: url("../img/sprite.png") no-repeat;
+  background-position: -10px -1298px;
 }
 
 .show-items {
   display: inline-block;
   font-size: 13px;
   line-height: 18px;
+  text-align: center;
   margin-top: 70px;
   padding: 11px 35px;
   border: 2px solid #e5e5e5;
@@ -2401,6 +2422,32 @@ a.icon-instagramm:before {
     background-position: -10px -1787px;
 }
 
+@keyframes bounce {
+  0%   {
+    transform: translateY(-2000px);
+  }
+  70%  {
+    transform: translateY(30px);
+  }
+  90%  {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-10px);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateX(10px);
+  }
+}
 
 .modal-content {
   position: fixed;
@@ -2498,7 +2545,6 @@ a.icon-instagramm:before {
  float: right;
  width: 220px;
 }
-
 
 .contact-us-form label {
  display: inline-block;
