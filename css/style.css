@@ -199,6 +199,23 @@ a.spec-menu-item:before {
   background-color: #161d29;
 }
 
+.icon-basket-inner {
+  position: relative;
+  background: url("../img/sprite.png") no-repeat;
+  background-position: 0 -3px;
+}
+
+.icon-basket-inner:hover {
+  background: url("../img/sprite.png") no-repeat;
+  background-position: 0 -111px;
+}
+
+.icon-basket-inner:active {
+  background: url("../img/sprite.png") no-repeat;
+  background-position: 0 -39px;
+  background-color: #161d29;
+}
+
 .order {
   display: inline-block;
   padding: 14px 20px;
@@ -1804,7 +1821,7 @@ a.icon-up:hover:before {
   content: "";
 }
 
-.firm-checkbox .active input[type="checkbox"]:checked + .checkbox-indicator::before {
+.firm-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before {
   position: absolute;
   top: -3px;
   left: 0;
@@ -1858,7 +1875,7 @@ a.icon-up:hover:before {
   margin-top: 70px;
   padding: 11px 35px;
   border: 2px solid #e5e5e5;
-  border-radius: 5px
+  border-radius: 3px
 }
 
 a.blocked:before {
