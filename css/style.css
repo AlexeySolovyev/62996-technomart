@@ -26,8 +26,8 @@ html, body {
 
 .btn {
   display: inline-block;
-  padding-top: 14px;
-  padding-bottom: 14px;
+  padding-top: 11px;
+  padding-bottom: 13px;
   font-size: 14px;
   text-transform: uppercase;
   background-color: #ee3643;
@@ -260,8 +260,8 @@ a.spec-menu-item:before {
 .phone-number {
   position: absolute;
   display: block;
-  padding: 8px 0;
-  padding-left: 30px;
+  padding: 11px 0;
+  padding-left: 33px;
   margin: 0;
   margin-bottom: 8px;
   font-size: 21px;
@@ -273,7 +273,7 @@ a.spec-menu-item:before {
 .icon-phone {
   position: relative;
   background: url("../img/sprite.png") no-repeat;
-  background-position: 2px -1023px;
+  background-position: 2px -1020px;
 }
 
  p.icon-phone:before {
@@ -284,7 +284,8 @@ a.spec-menu-item:before {
 .street {
   font-size: 14px;
   margin: 0;
-  margin-left: 5px;
+  margin-left: 8px;
+  margin-top: -3px;
   line-height: 18px;
   color: #32425c;
 }
@@ -325,6 +326,9 @@ a.spec-menu-item:before {
   position: relative;
   padding: 10px 25px;
   padding-left: 45px;
+  padding-top: 10px;
+  text-align: center;
+  margin-top: 5px;
 }
 
 a.icon-login:before {
@@ -622,8 +626,8 @@ a.icon-logout:before {
 
 .block-title {
   margin-top: 23px;
-  margin-left: 25px;
-  margin-bottom: 15px;
+  margin-left: 24px;
+  margin-bottom: 14px;
   font-size: 24px;
   font-weight: 300;
   color: #ffffff;
@@ -684,7 +688,8 @@ a.icon-logout:before {
   display: inline-block;
   width: 44px;
   height: 65px;
-  margin-top: -32.5px;
+  margin-top: -30px;
+  margin-right: 10px;
   background-image: url("../img/button_materials.png");
   background-repeat: no-repeat;
 }
@@ -697,7 +702,8 @@ a.icon-logout:before {
   display: inline-block;
   width: 75px;
   height: 61px;
-  margin-top: -30.5px;
+  margin-top: -29px;
+  margin-right: 3px;
   background-image: url("../img/button_tools.png");
   background-repeat: no-repeat;
 }
@@ -711,6 +717,7 @@ a.icon-logout:before {
   width: 78px;
   height: 62px;
   margin-top: -31px;
+  margin-right: 7px;
   background-image: url("../img/button_equipment.png");
   background-repeat: no-repeat;
 }
@@ -724,6 +731,7 @@ a.icon-logout:before {
   width: 59px;
   height: 72px;
   margin-top: -36px;
+  margin-right: 5px;
   background-image: url("../img/button_sale.png");
   background-repeat: no-repeat;
 }
@@ -736,7 +744,8 @@ a.icon-logout:before {
   display: inline-block;
   width: 78px;
   height: 63px;
-  margin-top: -31.5px;
+  margin-top: -33px;
+  margin-right: 5px;
   background-image: url("../img/button_delivery.png");
   background-repeat: no-repeat;
 }
@@ -776,7 +785,6 @@ a.icon-logout:before {
   margin: 0;
   font-size: 36px;
   font-weight: 300;
-  padding-bottom: 2px;
   text-transform: uppercase;
 }
 
@@ -836,7 +844,7 @@ a.icon-right:before {
   content: "";
   width: 40px;
   height: 50px;
-  right: -600px;
+  right: -607px;
   background: url("../img/sprite.png") no-repeat;
   background-position: 0 -1333px;
 }
@@ -853,10 +861,10 @@ a.icon-right:before {
 
 .open-catalog-btn {
   position: absolute;
-  bottom: 25px;
-  left: 25px;
+  bottom: 23px;
+  left: 22px;
   z-index: 500;
-  padding-left: 50px;
+  padding-left: 51px;
   padding-right: 50px;
   margin: 0;
 }
@@ -899,7 +907,7 @@ a.icon-right:before {
 .index-title  h3 {
   display: inline-block;
   max-width: 450px;
-  margin: 25px 30px;
+  margin: 29px 29px;
   margin-right: 0;
   font-size: 30px;
   font-weight: 300;
@@ -912,8 +920,8 @@ a.icon-right:before {
   max-width: 300px;
   padding: 10px 55px;
   padding-right: 55px;
-  margin-right: 25px;
-  margin-top: 25px;
+  margin-right: 24px;
+  margin-top: 26px;
   margin-bottom: 25px;
   white-space: nowrap;
   overflow: hidden;
@@ -952,8 +960,8 @@ a.icon-right:before {
   position: absolute;
   max-width: 210px;
   max-height: 170px;
-  top: 50%;
-  left: 50%;
+  top: 52%;
+  left: 46%;
   transform: translate(-50%, -50%);
 }
 
@@ -1049,7 +1057,7 @@ a.icon-right:before {
 .catalog-item > .title {
   min-height: 20px;
   padding: 0 20px;
-  margin-top: 15px;
+  margin-top: 16px;
   margin-bottom: 10px;
   text-transform: none;
 }
@@ -1058,8 +1066,8 @@ a.icon-right:before {
   position: relative;
   width: 80px;
   padding: 10px 30px;
-  margin: 10px auto;
-  margin-bottom: 20px;
+  margin: 9px auto;
+  margin-bottom: 19px;
   color: #ffffff;
   background: #ee3643;
   border-radius: 3px;
@@ -1304,7 +1312,7 @@ a.btn-next {
 }
 
 .catalog-firms {
-  margin-bottom: 65px;
+  margin-bottom: 60px;
 }
 
 .catalog-firm {
@@ -1340,7 +1348,7 @@ a.btn-next {
 .catalog-firm img {
   position: absolute;
   display: block;
-  top: 50%;
+  top: 44%;
   left: 50%;
   transform: translate(-50%, -50%);
   max-width: 210px;
@@ -1353,8 +1361,8 @@ a.btn-next {
 }
 
 .services-title {
-  margin-top: 60px;
-  margin-bottom: 25px;
+  margin-top: 64px;
+  margin-bottom: 29px;
   font-size: 30px;
   font-weight: 300;
   line-height: 24px;
@@ -1363,7 +1371,7 @@ a.btn-next {
 
 .services-description {
   width: 400px;
-  margin-bottom: 70px;
+  margin-bottom: 67px;
   font-size: 14px;
   line-height: 24px;
 }
@@ -1374,7 +1382,7 @@ a.btn-next {
   width: 240px;
   padding: 0;
   margin: 0;
-  margin-bottom: 100px;
+  margin-bottom: 105px;
   list-style: none;
   background-color: #32425c;
 }
@@ -1481,7 +1489,7 @@ a.btn-next {
   content: "";
   position: absolute;
   z-index: 0;
-  top: 20px;
+  top: 24px;
   right: 0;
   width: 468px;
   height: 261px;
@@ -1492,7 +1500,7 @@ a.btn-next {
 .tab-second:after {
   content: "";
   position: absolute;
-  top: 20px;
+  top: 24px;
   right: 0;
   z-index: 0;
   width: 468px;
@@ -1504,7 +1512,7 @@ a.btn-next {
 .tab-third:after {
   content: "";
   position: absolute;
-  top: 20px;
+  top: 24px;
   right: 0;
   z-index: 0;
   width: 468px;
@@ -1528,7 +1536,8 @@ a.btn-next {
 
 .text {
   margin: 0;
-  margin-bottom: 25px;
+  margin-bottom: 22px;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 24px;
   }
@@ -1545,13 +1554,15 @@ a.btn-next {
 
 .transport-companies li {
   margin-bottom: 15px;
+  padding-left: 5px;
+  padding-bottom: 5px;
 }
 
 .transport-companies li:before {
   content: "";
   position: relative;
-  top: -6px;
-  right: 5px;
+  top: -4px;
+  right: 9px;
   display: inline-block;
   width: 25px;
   height: 2px;
@@ -1562,7 +1573,7 @@ a.btn-next {
   padding: 10px 40px;
   width: 140px;
   margin: 0;
-  margin-top: 5px;
+  margin-top: -5px;
 }
 
 .contacts {
@@ -1581,12 +1592,13 @@ a.btn-next {
 .map img {
   max-width: 300px;
   max-height: 157px;
+  margin-top: 7px;
 }
 
 .lost-btn {
   padding: 10px 61px;
   margin: 0;
-  margin-top: 5px;
+  margin-top: -1px;
 }
 
 .breadcrumbs {
@@ -1948,15 +1960,15 @@ footer {
 
 .footer-address {
   float: left;
-  width: 320px;
+  width: 324px;
   margin-bottom: 45px;
 }
 
 .footer-logo {
   display: inline-block;
-  padding: 15px 40px;
+  padding: 15px 35px;
   margin-top: -1px;
-  margin-bottom: 30px;
+  margin-bottom: 32px;
   font-size: 30px;
   font-weight: bold;
   text-transform: uppercase;
@@ -1966,6 +1978,7 @@ footer {
 
 .footer-address > p {
   margin: 0;
+  padding-left: 1px;
   font-size: 18px;
   line-height: 24px;
 }
@@ -1979,7 +1992,7 @@ footer {
   float: right;
   padding: 0;
   margin: 0;
-  margin-top: 35px;
+  margin-top: 38px;
   font-size: 18px;
   list-style: none;
 }
@@ -2022,7 +2035,7 @@ footer {
 .copyright {
   float: left;
   width: 230px;
-  margin-top: 35px;
+  margin-top: 37px;
   margin-right: 160px;
   margin-bottom: 40px;
   font-size: 16px;
@@ -2038,7 +2051,7 @@ footer {
   display: inline-block;
   width: 20px;
   height: 20px;
-  padding: 12px 12px;
+  padding: 12px 10px;
   font-size: 18px;
   background-color: #212a3a;
   border-radius: 50%;
@@ -2119,7 +2132,7 @@ a.icon-instagramm:before {
 
 .contact-text p {
   margin: 0;
-  margin-top: 35px;
+  margin-top: 37px;
 }
 
 .contact-text a:link,
