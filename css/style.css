@@ -369,7 +369,7 @@ a.icon-login:before {
   position: relative;
   width: 290px;
   padding: 10px 0;
-  padding-right: 10px;
+  padding-right: 15px;
   margin-bottom: 10px;
   text-align: center;
 }
@@ -389,19 +389,19 @@ a.icon-user:before {
   top: 0;
   left: 0;
   width: 30px;
-  height: 30px;
+  height: 35px;
   background: url("../img/sprite.png") no-repeat;
-  background-position: 6px -1661px;
+  background-position: 9px -1657px;
 }
 
 .icon-user:hover::before {
   background: url("../img/sprite.png") no-repeat;
-  background-position: 6px -1737px;
+  background-position: 9px -1734px;
 }
 
 .icon-user:active::before {
   background: url("../img/sprite.png") no-repeat;
-  background-position: 6px -1698px;
+  background-position: 9px -1695px;
 }
 
 .login-menu .user-menu-profile-btn:hover {
@@ -1057,7 +1057,7 @@ a.icon-right:before {
 .catalog-item > .title {
   min-height: 20px;
   padding: 0 20px;
-  margin-top: 16px;
+  margin-top: 17px;
   margin-bottom: 10px;
   text-transform: none;
 }
@@ -1120,7 +1120,7 @@ a.icon-right:before {
 }
 
 .sort-by-price {
-  margin-left: 140px;
+  margin-left: 135px;
 }
 
 .sort-by-type {
@@ -1128,7 +1128,7 @@ a.icon-right:before {
 }
 
 .sort-by-functional {
-  margin-left: 55px;
+  margin-left: 63px;
 }
 
 .catalog-items-sort-bar a:hover {
@@ -1161,17 +1161,17 @@ a.icon-up-dir {
   width: 20px;
   height: 20px;
   background: url("../img/sprite.png") no-repeat;
-  background-position: -10px -1583px;
+  background-position: -4px -1583px;
 }
 
 .icon-up-dir:hover::before {
   background: url("../img/sprite.png") no-repeat;
-  background-position: -10px -1643px;
+  background-position: -6px -1643px;
 }
 
 .icon-up-dir, .sort-up-active::before {
   background: url("../img/sprite.png") no-repeat;
-  background-position: -10px -1613px;
+  background-position: -6px -1613px;
 }
 
 a.icon-down-dir {
@@ -1190,7 +1190,7 @@ a.icon-down-dir {
   width: 20px;
   height: 20px;
   background: url("../img/sprite.png") no-repeat;
-  background-position: -10px -556px;
+  background-position: -6px -556px;
 }
 
 .icon-down-dir:hover:before {
@@ -1201,7 +1201,7 @@ a.icon-down-dir {
   width: 20px;
   height: 20px;
   background: url("../img/sprite.png") no-repeat;
-  background-position: -10px -615px;
+  background-position: -6px -615px;
 }
 
 .catalog-items-sort-bar .sort-up-active:before,
@@ -1262,7 +1262,7 @@ a.icon-down-dir {
 .page-switcher a {
   display: inline-block;
   padding: 9px 14px;
-  margin-top: 50px;
+  margin-top: 52px;
   margin-bottom: 60px;
   margin-right: 8px;
   font-family: "Open Sans", "Arial", sans-serif;
@@ -1657,11 +1657,11 @@ a.btn-next {
 }
 
 .catalog-title {
-  padding: 25px 30px;
+  padding: 29px 29px;
   margin: 0;
-  margin-bottom: 22px;
+  margin-bottom: 16px;
   font-size: 30px;
-  font-weight: normal;
+  font-weight: 300;
   text-transform: uppercase;
   color: #32425c;
   background-color: #f2f6f8;
@@ -1692,14 +1692,14 @@ a.btn-next {
 
 .catalog-refine-control-title {
   padding: 12px 20px;
-  margin-bottom: 0;
+  margin-bottom: 3px;
 }
 
 .range-controls {
   position: relative;
   padding: 39px 20px;
   margin-top: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 9px;
   background-color: #f7f3ec;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -1729,12 +1729,12 @@ a.btn-next {
 }
 
 .range-controls .max-toggle {
-  left: 156px;
+  left: 159px;
 }
 
 .price-controls input {
   width: 95px;
-  padding: 8px 0;
+  padding: 6px 0;
   margin-bottom: 30px;
   text-align: center;
   background-color: #f7f3ec;
@@ -1756,14 +1756,15 @@ a.btn-next {
 
 .catalog-control-header {
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 18px;
 }
 
 .catalog-control-sub-title {
   display: block;
-  padding-top: 15px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 17px;
+  padding-top: 18px;
   margin-bottom: 10px;
-  font-weight: 700;
 }
 
 .catalog-control-sub-title {
@@ -1786,7 +1787,7 @@ a.icon-up:before {
   position: relative;
   padding: 0;
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 27px;
   font-size: 14px;
   font-weight: 200;
   list-style: none;
@@ -1917,11 +1918,11 @@ a.icon-up:hover:before {
 
 .show-items {
   display: inline-block;
-  font-size: 13px;
-  line-height: 18px;
+  font-size: 11px;
+  line-height: 21px;
   text-align: center;
-  margin-top: 70px;
-  padding: 11px 35px;
+  margin-top: 52px;
+  padding: 8px 40px;
   border: 2px solid #e5e5e5;
   border-radius: 3px
 }
@@ -1940,14 +1941,14 @@ a.blocked:hover:before {
 }
 
 .items-description-title {
-  padding-top: 65px;
-  padding-bottom: 20px;
+  padding-top: 61px;
+  padding-bottom: 25px;
   font-size: 30px;
   text-transform: uppercase;
 }
 
 .items-description-text {
-  margin-bottom: 70px;
+  margin-bottom: 65px;
 }
 
 footer {
